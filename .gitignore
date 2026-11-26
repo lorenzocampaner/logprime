@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Local data: corpora and built maps are not part of the repository
+corpus/
+map/
+map_*/
+
+# Local experiments and notes (anything at the top level that is not the package)
+/*.py
+/*.md
+!/README.md
+/*.json
